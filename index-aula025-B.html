@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title> JS Bin</title>
+  <script type="text/JavaScript">
+
+    //Trabalhar com efeitos de imagens
+	
+function carregar(){
+
+var imagens = new Image();
+	imagens.src = 'imagens/002.jpg';
+	imagens.src = 'imagens/003.jpg';
+	imagens.src = 'imagens/004.jpg';
+	imagens.src = 'imagens/005.jpg';
+	imagens.src = 'imagens/006.jpg';
+	
+}
+  </script>
+</head>
+<body onload="carregar();">
+<img alt="" src="imagens/001.jpg" widht="300" height="300" name="imagens" />
+<a href="#" onmouseover="javascript:imagens.src='imagens/002.jpg'">Imagem 2</a>
+<a href="#" onmouseover="javascript:imagens.src='imagens/003.jpg'">Imagem 3</a>
+<a href="#" onmouseover="javascript:imagens.src='imagens/004.jpg'">Imagem 4</a>
+<a href="#" onmouseover="javascript:imagens.src='imagens/005.jpg'">Imagem 5</a>
+<a href="#" onmouseover="javascript:imagens.src='imagens/006.jpg'">Imagem 6</a>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title> Validação</title>
+  <script language="JavaScript" src="js/validacao.js"> </script>
+  <script type="text/JavaScript">
+
+    //Get element By ID
+
+    function pegarValor(){
+
+    	var A = document.getElementById("texto");
+
+    	alert(A.innerHTML);
+
+
+    }
+
+      function pegarValor2(){
+
+    	var B = document.getElementById("palavra").value;
+
+    	alert(B);
+
+
+    }
+	
+	
+
+  </script>
+</head>
+<body>
+<input type="text" id="palavra"/>
+<input type="button" onclick="pegarValor2();"/>
+<a href="#" id="texto" onclick="pegarValor();">Meu texto</a>	
+
+
+
+</body>
+</html>

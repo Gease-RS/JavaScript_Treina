@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title> JS Bin</title>
+  <script type="text/JavaScript">
+
+    //Validação
+	
+	function validacao(){
+	formular = document.formulario;
+	
+	valida = formulario.email.value.indexOf("@");
+	if (valida == -1){
+	
+	alert("Email incorreto!");
+	return false;
+	}
+	
+	}
+  </script>
+</head>
+<body>
+<form action="index16.html" method="get" name="formulario" onsubmit="return validacao()">
+<input type="text" name="email"/>
+<input type="submit" name="Enviar"/>
+</form>
+
+
+</body>
+</html>
